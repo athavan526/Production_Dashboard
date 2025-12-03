@@ -36,7 +36,9 @@ Multiple Browser Dashboards (Live Updates)
 | `D103` | `Channel1.Device1.downtime` | `setDowntime()` | Downtime (s) |
 | `D104` | `Channel1.Device1.takt` | `setRooltarget()` | Takt Time |
 
-## 🚀 Quick Start
+## 🎥 Demo Video
+
+
 
 ### Prerequisites
 - Java 17+, Maven 3.6+
