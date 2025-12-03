@@ -18,4 +18,11 @@
 - **Production Ready** - `@PostConstruct/@PreDestroy`, 5s connect timeout, error recovery
 
 ## 📡 Complete Data Flow
+Mitsubishi iQ-R PLC (R08CPU)
+↓ Ethernet/SLMP (D100-D104)
+Kepware KEPServerEX (Channel1.Device1)
+↓ OPC UA (opc.tcp://127.0.0.1:49320)
+Spring Boot + Eclipse Milo Client
+↓ WebSocket Broadcast (/opcua-data)
+Multiple Browser Dashboards (Live Updates)
 
