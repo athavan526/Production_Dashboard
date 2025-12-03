@@ -1,1 +1,21 @@
-# Production_Dashboard
+
+# Spring Boot OPC UA Live Production Dashboard 🚀
+
+[![Java](https://img.shields.io/badge/Java-17%2B-blue.svg)](https://www.oracle.com/java/)
+[![Spring Boot](https://img.shields.io/badge/Spring%20Boot-3.x-green.svg)](https://spring.io/projects/spring-boot)
+[![Eclipse Milo](https://img.shields.io/badge/Eclipse%20Milo-OPC%20UA-orange.svg)](https://github.com/eclipse/milo)
+[![WebSocket](https://img.shields.io/badge/WebSocket-Live%20Data-yellow.svg)](https://developer.mozilla.org/en-US/docs/Web/API/WebSocket)
+[![License](https://img.shields.io/badge/License-MIT-brightgreen.svg)](LICENSE)
+
+**Complete Industrial IoT solution**: Mitsubishi iQ-R PLC → Kepware OPC UA → Spring Boot Dashboard → Live WebSocket Browser Updates. Real-time OEE, production actual/target, uptime monitoring for MES/SCADA systems.
+
+## 🎯 Features
+
+- **Mitsubishi iQ-R Integration** via Kepware SLMP4E driver
+- **Eclipse Milo OPC UA Client** - 5-node subscriptions (actual/target/uptime/downtime/takt)
+- **Live WebSocket Broadcasting** - `CopyOnWriteArrayList<WebSocketSession>` multi-client
+- **Thread-Safe** - Synchronized `cachedData` updates + concurrent session management
+- **Production Ready** - `@PostConstruct/@PreDestroy`, 5s connect timeout, error recovery
+
+## 📡 Complete Data Flow
+
