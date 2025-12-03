@@ -5,7 +5,7 @@
 [![Spring Boot](https://img.shields.io/badge/Spring%20Boot-3.x-green.svg)](https://spring.io/projects/spring-boot)
 [![Eclipse Milo](https://img.shields.io/badge/Eclipse%20Milo-OPC%20UA-orange.svg)](https://github.com/eclipse/milo)
 [![WebSocket](https://img.shields.io/badge/WebSocket-Live%20Data-yellow.svg)](https://developer.mozilla.org/en-US/docs/Web/API/WebSocket)
-[![License](https://img.shields.io/badge/License-MIT-brightgreen.svg)](LICENSE)
+
 
 **Complete Industrial IoT solution**: Mitsubishi iQ-R PLC → Kepware OPC UA → Spring Boot Dashboard → Live WebSocket Browser Updates. Real-time OEE, production actual/target, uptime monitoring for MES/SCADA systems.
 
