@@ -26,3 +26,26 @@ Spring Boot + Eclipse Milo Client
 ↓ WebSocket Broadcast (/opcua-data)
 Multiple Browser Dashboards (Live Updates)
 
+## 📊 Monitored PLC Registers → OPC UA Nodes
+
+| PLC Address | Kepware Tag | Dashboard Field | Purpose |
+|-------------|-------------|-----------------|---------|
+| `D100` | `Channel1.Device1.actual` | `setActual()` | Production Count |
+| `D101` | `Channel1.Device1.target` | `setTarget()` | Production Target |
+| `D102` | `Channel1.Device1.uptime` | `setUptime()` | Machine Runtime (s) |
+| `D103` | `Channel1.Device1.downtime` | `setDowntime()` | Downtime (s) |
+| `D104` | `Channel1.Device1.takt` | `setRooltarget()` | Takt Time |
+
+## 🚀 Quick Start
+
+### Prerequisites
+- Java 17+, Maven 3.6+
+- Mitsubishi iQ-R PLC (R08CPU) with Ethernet module
+- Kepware KEPServerEX v6.12+ (Mitsubishi Ethernet driver)
+- GX Works3 for PLC programming
+
+
+### 4. Live Dashboard
+http://localhost:8080/dashboard
+
+
