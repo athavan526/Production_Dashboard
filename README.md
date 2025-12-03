@@ -40,6 +40,14 @@ Multiple Browser Dashboards (Live Updates)
 
 
 
+
+
+https://github.com/user-attachments/assets/d432e91e-e952-47ef-ab23-31f83654c3bf
+
+
+
+
+
 ### Prerequisites
 - Java 17+, Maven 3.6+
 - Mitsubishi iQ-R PLC (R08CPU) with Ethernet module
